@@ -1,0 +1,162 @@
+.container {
+  background-color: white;
+  border: 3px solid darkgreen;
+  border-radius: 10px;
+  padding: 50px 50px;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 200px;
+  margin-bottom: 40px;
+}
+
+input::placeholder {
+  color: firebrick;
+  font-family: verdana;
+  text-transform: capitalize;
+}
+
+.coolTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  
+  font-size: 4em;
+  background: linear-gradient(
+    -45deg, 
+    #4bc0c8 20%, 
+    #feac5e 45%, 
+    #feac5e 50%, 
+    #4bc0c8 50%, 
+    #4bc0c8 10%, 
+    #feac5e 55%, 
+    #feac5e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: $size $size;
+  background-position: 0 0;;
+} 
+
+
+
+input[type=text] {
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin-left: auto;
+}
+
+input[type=text]:focus {
+    border-color:#333;
+}
+
+.add {
+  display: inline-block;
+  font-size: 16x;
+  font-weight: 500;
+  background-color: #add8e6;
+  color: #ffffff;
+  text-shadow: #000 1px 1px 5px;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 2px;
+  padding: 5px 15px 7px;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+.caption {
+  text-align: center;
+  font-family: 'Oswald', Helvetica;
+  font-size: 25px;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+#enter {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centerList {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+canvas {
+    width: 100%;
+    height: 100vh;
+    display: block;
+}
+
+body {
+
+  margin: 0;
+  padding: 0;  
+  background: #add8e6;
+  display: block;;
+}
+
+input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+  position: relative;
+}
+
+li {
+  list-style: none;
+}
+
+
+button {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  background-color: #add8e6;
+}
+
+
+.latchbutton {            
+  display: flex;
+  flex: wrap;
+  justify-content: flex-end;
+}
+
+
+.listText {
+  font-family: Verdana;
+  font-size: 18px;
+  color: darkslategray;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+hr {
+  margin: 20px 20px;
+}
+
+.caption {
+  color: darkorchid;
+  font-family: garamond;
+  font-size: 2em;
+  font-weight: normal;
+}
